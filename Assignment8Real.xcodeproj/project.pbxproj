@@ -7,7 +7,12 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3F498CF9223495AC000E25B6 /* NewNode.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F498CF8223495AC000E25B6 /* NewNode.m */; };
 		3F74471721EC2A7300FB0274 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F74471621EC2A7300FB0274 /* main.m */; };
+		3F74471E21EC2AA000FB0274 /* Binary.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F74471D21EC2AA000FB0274 /* Binary.m */; };
+		3F74472121F1009D00FB0274 /* QuickSort.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F74472021F1009D00FB0274 /* QuickSort.m */; };
+		3F74472421F106D300FB0274 /* LinkedList.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F74472321F106D300FB0274 /* LinkedList.m */; };
+		3F7B97422223AF08002E17FE /* Birthday.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F7B97412223AF08002E17FE /* Birthday.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -23,8 +28,18 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		3F498CF8223495AC000E25B6 /* NewNode.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NewNode.m; sourceTree = "<group>"; };
+		3F498CFA223495B6000E25B6 /* NewNode.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NewNode.h; sourceTree = "<group>"; };
 		3F74471321EC2A7200FB0274 /* Assignment8Real */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = Assignment8Real; sourceTree = BUILT_PRODUCTS_DIR; };
 		3F74471621EC2A7300FB0274 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		3F74471D21EC2AA000FB0274 /* Binary.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Binary.m; sourceTree = "<group>"; };
+		3F74471F21EC2AD300FB0274 /* Binary.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Binary.h; sourceTree = "<group>"; };
+		3F74472021F1009D00FB0274 /* QuickSort.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = QuickSort.m; sourceTree = "<group>"; };
+		3F74472221F100A800FB0274 /* QuickSort.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = QuickSort.h; sourceTree = "<group>"; };
+		3F74472321F106D300FB0274 /* LinkedList.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LinkedList.m; sourceTree = "<group>"; };
+		3F74472521F106DE00FB0274 /* LinkedList.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LinkedList.h; sourceTree = "<group>"; };
+		3F7B97412223AF08002E17FE /* Birthday.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Birthday.m; sourceTree = "<group>"; };
+		3F7B97432223AF13002E17FE /* Birthday.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Birthday.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +73,16 @@
 			isa = PBXGroup;
 			children = (
 				3F74471621EC2A7300FB0274 /* main.m */,
+				3F7B97412223AF08002E17FE /* Birthday.m */,
+				3F7B97432223AF13002E17FE /* Birthday.h */,
+				3F74472321F106D300FB0274 /* LinkedList.m */,
+				3F74472521F106DE00FB0274 /* LinkedList.h */,
+				3F498CF8223495AC000E25B6 /* NewNode.m */,
+				3F498CFA223495B6000E25B6 /* NewNode.h */,
+				3F74472021F1009D00FB0274 /* QuickSort.m */,
+				3F74472221F100A800FB0274 /* QuickSort.h */,
+				3F74471D21EC2AA000FB0274 /* Binary.m */,
+				3F74471F21EC2AD300FB0274 /* Binary.h */,
 			);
 			path = Assignment8Real;
 			sourceTree = "<group>";
@@ -118,6 +143,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3F74471E21EC2AA000FB0274 /* Binary.m in Sources */,
+				3F7B97422223AF08002E17FE /* Birthday.m in Sources */,
+				3F74472121F1009D00FB0274 /* QuickSort.m in Sources */,
+				3F74472421F106D300FB0274 /* LinkedList.m in Sources */,
+				3F498CF9223495AC000E25B6 /* NewNode.m in Sources */,
 				3F74471721EC2A7300FB0274 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
